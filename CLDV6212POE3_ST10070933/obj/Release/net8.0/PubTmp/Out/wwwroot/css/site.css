@@ -1,0 +1,39 @@
+html {
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 25px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 55px;
+}
+/*Setting background color*/
+body {   
+    background-image: url('../images/pexels-steve-1509534.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000000;
+}
+
+
+/*styling for the footer for all pages*/
+.footer {
+    background-color: #000000;
+    color: black;
+    padding: 5px;
+}
+
